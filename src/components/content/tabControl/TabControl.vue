@@ -24,6 +24,9 @@
     methods: {
       itemClick(index){
         this.currentIndex = index
+        //子传父
+        
+        this.$emit('tabClick',index)
       }
     },
     components: {}
