@@ -13,10 +13,7 @@
   export default {
     name: 'RecommendView',
     props: {
-      recommends: {
-        type: Array,
-        default: []
-      }
+      recommends: Array
     },
     data() {
       return {
